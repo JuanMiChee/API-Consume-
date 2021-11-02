@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size:50 ;
+}
+
+.titulo{
+    margin-left: 25%;
+    display:flex;
+    justify-content: center;
+    justify-self: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background: #1c7cba;
+    border: solid #1f608b;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.header-box{
+    display: flex;
+    margin-top: 150px;
+    background: #070024;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    font-size: 14px;
+    height: 63px;
+    color: white;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+.header-box div{
+    display: flex;
+    
+}
+
+.header-box div a:hover{
+    background-color: #10004e;
+    border-radius: 3px;
+}
+
+.header-box div a{
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .header-box ul a li{
+    padding-bottom: 1px white;
+    text-decoration: none;
+}
+
+.header-box ul li a{
+    padding-bottom: 2px solid white;
+}
+
+.header-box .img1{
+    margin-left: 27%;
+    width: 50px;
+    border: solid white;
+    border-radius: 50%;
+}
+
+.header-box .img2{
+    width: 50px;
+    border: solid white;
+    border-radius: 50%;
+}
+
+main section{
+    width: 100%;
+    
+}
+body {
+     background-image: url('map2.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-position: 0% 0%;    
+     background-size: cover;  
+}
+
+main .main-container{
+    display:flex;
+    justify-content: center;
+}
+
+main .main-container a{
+    font-weight: 200%;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 355px;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 3px;
+    background-color:#1970aa;
+    color: white;
+    font-style: none;
+}
+
+main .main-container a:hover{
+    transition-delay: 50ms;
+    background: #105481;
+}
+
+.info{
+    width: 20%;
+    margin-top: 20px;
+}
+
+.info p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-top: solid 3px #105481;
+    border-bottom: solid 3px #105481;
+    
+
+    
+}
+
+
