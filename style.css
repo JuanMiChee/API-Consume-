@@ -81,7 +81,7 @@ main section{
     
 }
 body {
-     background-image: url('map2.png');
+     background-image: url('./styles/map2.png');
      background-position: center;
      background-repeat: no-repeat;
      background-position: 0% 0%;    

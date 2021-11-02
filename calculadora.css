@@ -1,5 +1,5 @@
 body {
-    background-image: url('mundito.jpg');
+    background-image: url('./styles/mundito.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-position: 0% 0%;    
